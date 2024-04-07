@@ -1,0 +1,64 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Bored API</ion-title>
+    <ion-buttons slot="end">
+      <ion-button routerLink="historico">Histórico</ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <form [formGroup]="apiForm" (ngSubmit)="onSubmit()">
+    <ion-item>
+      <ion-select formControlName="tema" label="Tema" placeholder="Escolha um tema" style="width: 70%;">
+        <ion-select-option *ngFor="let tipo of tipos" value="{{tipo.tipo}}" id="{{tipo.id}}">
+          {{tipo.descricao}}
+        </ion-select-option>
+      </ion-select>
+        <ion-button type="submit" style="width: 30%;">
+            Buscar
+        </ion-button>
+    </ion-item>
+
+    
+  </form>
+  <ion-card style="margin-top: 10px;margin-bottom: 2px;">
+    <ion-card-header>
+      <ion-card-title  style="font-size: 1.5rem;">Retorno da API</ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>
+      <ion-label>Atividade:</ion-label>
+      <ion-item>
+        <ion-text [textContent]="retornoApi ? retornoApi.activity : ''"></ion-text>
+      </ion-item>
+      <ion-label>Tema:</ion-label>
+      <ion-item>
+        <ion-text [textContent]="retornoApi ? retornoApi.type : ''"></ion-text>
+      </ion-item>
+      <ion-label>Participantes:</ion-label>
+      <ion-item>
+        <ion-text [textContent]="retornoApi ? retornoApi.participants : ''"></ion-text>
+      </ion-item>
+      <ion-label>Preço:</ion-label>
+      <ion-item>
+        <ion-text [textContent]="retornoApi ? retornoApi.price : ''"></ion-text>
+      </ion-item>
+      <ion-label>Url:</ion-label>
+      <ion-item>
+        <ion-text [textContent]="retornoApi ? retornoApi.link : ''"></ion-text>
+      </ion-item>
+      <ion-label>Chave:</ion-label>
+      <ion-item>
+        <ion-text [textContent]="retornoApi ? retornoApi.key : ''"></ion-text>
+      </ion-item>
+      <ion-label>Acessibilidade:</ion-label>
+      <ion-item>
+        <ion-text [textContent]="retornoApi ? retornoApi.accessibility : ''"></ion-text>
+      </ion-item>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

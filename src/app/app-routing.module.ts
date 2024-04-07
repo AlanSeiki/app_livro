@@ -20,6 +20,10 @@ const routes: Routes = [
   {
     path: 'livros',
     loadChildren: () => import('./livros/livro.module').then(module => module.LivroModule)
+  },
+  {
+    path: 'api',
+    loadChildren: () => import('./api/api.module').then(module => module.ApiModule)
   }
 ];
 

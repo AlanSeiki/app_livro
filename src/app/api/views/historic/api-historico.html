@@ -1,0 +1,24 @@
+<ion-header>
+    <ion-toolbar color="primary">
+        <ion-buttons slot="start">
+            <ion-back-button defaultHref="/api" text="Voltar"></ion-back-button>
+        </ion-buttons>
+        <ion-title>Histórico</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-list>
+        <ion-item *ngFor="let historico of historicos">
+            <ion-label class="livro-descricao">
+                <h2><strong>Atividade</strong>: {{historico.activity}}</h2>
+                <h3><strong>Tema</strong>: {{historico.type}}</h3>
+                <h3><strong>Participantes</strong>: {{historico.participants}}</h3>
+                <h3><strong>Preço</strong>: {{historico.price}}</h3>
+                <h3><strong>Url</strong>: {{historico.link}}</h3>
+                <h3><strong>Chave</strong>: {{historico.key}}</h3>
+                <h3><strong>Acessibilidade</strong>: {{historico.accessibility}}</h3>
+            </ion-label>
+        </ion-item>
+    </ion-list>
+</ion-content>

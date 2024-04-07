@@ -127,5 +127,167 @@
         }
       ]
     }
+  ],
+  "api": [
+    {
+      "activity": "Learn Express.js",
+      "type": "Educação",
+      "participants": 1,
+      "price": 0.1,
+      "link": "https://expressjs.com/",
+      "key": "3943506",
+      "accessibility": 0.25,
+      "id": 1
+    },
+    {
+      "activity": "Saiba como funciona a Internet",
+      "type": "Educação",
+      "participants": 1,
+      "price": 0,
+      "link": "",
+      "key": "9414706",
+      "accessibility": 0.1,
+      "id": 2
+    },
+    {
+      "activity": "Crie uma pilha de compostagem",
+      "type": "Faça você mesmo",
+      "participants": 1,
+      "price": 0,
+      "link": "",
+      "key": "8631548",
+      "accessibility": 0.15,
+      "id": 3
+    },
+    {
+      "activity": "Crie uma pilha de compostagem",
+      "type": "Faça você mesmo",
+      "participants": 1,
+      "price": 0,
+      "link": "",
+      "key": "8631548",
+      "accessibility": 0.15,
+      "id": 4
+    },
+    {
+      "activity": "Aprenda a usar uma prensa francesa",
+      "type": "Recreativo",
+      "participants": 1,
+      "price": 0.3,
+      "link": "https://en.wikipedia.org/wiki/French_press",
+      "key": "4522866",
+      "accessibility": 0.3,
+      "id": 5
+    },
+    {
+      "activity": "Saiba mais sobre a Proporção Áurea",
+      "type": "Educação",
+      "participants": 1,
+      "price": 0.1,
+      "link": "https://en.wikipedia.org/wiki/Golden_ratio",
+      "key": "2095681",
+      "accessibility": 0.2,
+      "id": 6
+    },
+    {
+      "activity": "Leia um trabalho de pesquisa formal sobre um assunto interessante",
+      "type": "Educação",
+      "participants": 1,
+      "price": 0,
+      "link": "",
+      "key": "3352474",
+      "accessibility": 0.1,
+      "id": 7
+    },
+    {
+      "activity": "Memorize uma citação ou poema favorito",
+      "type": "Educação",
+      "participants": 1,
+      "price": 0,
+      "link": "",
+      "key": "9008639",
+      "accessibility": 0.8,
+      "id": 8
+    },
+    {
+      "activity": "Leia um trabalho de pesquisa formal sobre um assunto interessante",
+      "type": "Educação",
+      "participants": 1,
+      "price": 0,
+      "link": "",
+      "key": "3352474",
+      "accessibility": 0.1,
+      "id": 9
+    },
+    {
+      "activity": "Aprenda a escrever em taquigrafia",
+      "type": "Educação",
+      "participants": 1,
+      "price": 0,
+      "link": "",
+      "key": "6778219",
+      "accessibility": 0.1,
+      "id": 10
+    },
+    {
+      "activity": "Learn Express.js",
+      "type": "Educação",
+      "participants": 1,
+      "price": 0.1,
+      "link": "https://expressjs.com/",
+      "key": "3943506",
+      "accessibility": 0.25,
+      "id": 11
+    },
+    {
+      "activity": "Aprenda a dobrar um guindaste de papel",
+      "type": "Educação",
+      "participants": 1,
+      "price": 0.1,
+      "link": "",
+      "key": "3136036",
+      "accessibility": 0.05,
+      "id": 12
+    },
+    {
+      "activity": "Aprenda origami",
+      "type": "Educação",
+      "participants": 1,
+      "price": 0.2,
+      "link": "",
+      "key": "8394738",
+      "accessibility": 0.3,
+      "id": 13
+    },
+    {
+      "activity": "Memorizar os cinquenta estados e suas capitais",
+      "type": "Educação",
+      "participants": 1,
+      "price": 0,
+      "link": "",
+      "key": "4179309",
+      "accessibility": 0,
+      "id": 14
+    },
+    {
+      "activity": "Aprenda a cumprimentar alguém num novo idioma",
+      "type": "Educação",
+      "participants": 1,
+      "price": 0.1,
+      "link": "",
+      "key": "4704256",
+      "accessibility": 0.2,
+      "id": 15
+    },
+    {
+      "activity": "Saiba mais sobre a Proporção Áurea",
+      "type": "Educação",
+      "participants": 1,
+      "price": 0.1,
+      "link": "https://en.wikipedia.org/wiki/Golden_ratio",
+      "key": "2095681",
+      "accessibility": 0.2,
+      "id": 16
+    }
   ]
 }
